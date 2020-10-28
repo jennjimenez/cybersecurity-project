@@ -44,11 +44,9 @@ The configuration details of each machine may be found below.
 
 The machines on the internal network are not exposed to the public Internet. 
 
-Only the Load Balancer machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-      - Only personal IP address is allowed.
+Only the Load Balancer machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses: Only personal IP address is allowed.
 
-Machines within the network can only be accessed by the Jump Box.
-      -Jump Box Machine public IP address 
+Machines within the network can only be accessed by the Jump Box :Jump Box Machine public IP address. 
 
 A summary of the access policies in place can be found in the table below.
 
@@ -58,8 +56,7 @@ A summary of the access policies in place can be found in the table below.
       
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because __________
-
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous it is secure and simple to install.
 The playbook implements the following tasks:
   - Installs docker io
   - Installs Python
@@ -79,8 +76,8 @@ We have installed the following Beats on these machines:
 Metricbeat and Filebeat
 
 These Beats allow us to collect the following information from each machine:
-    - Filebeat collects log data about the the file system.
-    - Metricbeat collects metrics and statistics.
+Filebeat collects log data about the the file system.
+Metricbeat collects metrics and statistics.
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
